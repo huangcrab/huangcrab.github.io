@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content='"Laziness" can be a key of future development, the "Laziness" here does not mean the quality of being unwilling to work or use energy, the "Laziness" here simply means being creative to make our life easier!'>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/x_blue.png">
+    <title>Lazy Paradise</title>
+</head>
+<body>
+    <div class="loading">
+        <div class="animated infinite flash" id="box">X</div>
+    </div>
+    <header class="v-header container">
+        <div class="fullscreen-video-wrap">
+            <video src="https://firebasestorage.googleapis.com/v0/b/lcwalpha.appspot.com/o/video.mp4?alt=media&token=1bb70024-f6f7-47bf-842d-fde9402999c4" autoplay="true" loop="true"></video>
+        </div>
+        
+        <div class="header-overlay"></div>
+        <div id="particle-js"></div>
+        <div class="header-content">
+            <img src="assets/x_blue.png" alt="X">
+            <h1>Welcome to "Lazy Paradise"</h1>
+            <p>"Laziness" can be a key of future development, the "Laziness" here does not mean the quality of being unwilling to work or use energy, the "Laziness" here simply means being <strong>creative</strong> to make our life easier!</p>
+            <a href="#" class="btn" id="about">About Me</a>
+            <a href="#" class="btn" id="projects">Show Projects</a>
+        </div>
+        <div class="header-content-about">
+            <h1>About Me</h1>
+            <a href="https://www.linkedin.com/in/xie-huang-a2b3baa2/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+            <a href="mailto:seanhuang@gmail.com"><i class="fa fa-envelope"></i></a>
+            <p>I am an extreme fast-learner who is able to work under pressure to deliver desired results within allocated time frame. Highly skilled in software problems diagnosis and effective solutions development. Able to communicate proficiently, and comfortable working in diversified environments. While thriving in challenging environments, I bring an exceptional set of skills guided by strong work ethics.</p>
+            <a href="#" class="btn" id="home">Home</a>
+            <a href="#" class="btn" id="projects-about">Show Projects</a>
+        </div>
+        <div class="projects">
+            <div class="project active" id="project-one">
+                <h1>Project One<br><span>XMLtoVisio Converter - JAVA</span></h1>
+                <h3>June 2017</h3>
+                <br>
+                <p>Xml to Visio Converter is a desktop application that generates thousands of Microsoft Visio files from XML file in less than a minutes, it traverse the xml file and translate it into Visio XML syntax, outputs them into .vsdx file, it’s able to create all the predefined shapes, links, and also hyper links into Visio files. It turns months of documentation work into a piece of cake.</p>
+            </div>
+            
+            <div class="project" id="project-two">
+                <h1>Project Two<br><a href="http://lcwheel.com" target="_blank">Production Website</a></h1>
+                <h3>Sept 2017</h3>
+                <br>
+                <p>A single page website for a Chinese immigration company, it uses multiple JavaScript libraries and Bootstrap, Animate.css to create some scrolling effects and animations. It has a contact form communicated with the firebase.</p>
+            </div>
+            <div class="project" id="project-three">
+                <h1>Project Three<br><span>PokePixel - IOS</span></h1>
+                <h3>Aug 2016</h3>
+                <br>
+                <p>PokePixel is a multi-page IOS app that calculates the IV and evolve value of a Pokémon from Pokemon GO, it takes the user input value outputs the perfect percentage of a Pokémon, so the player knows which Pokémon they should keep and invest on. It presents a collectionView of all the Pokémon’s, user can search the Pokémon by input the name or the id of the Pokemon.</p>
+            </div>
+            <div class="project" id="project-Four">
+                <h1>Project Four<br><span>XML Analyzer - JAVA</span></h1>
+                <h3>Aug 2016</h3>
+                <br>
+                <p>XML Analyzer is a desktop application traverse the XML file generated from IBM Process Designer. Make the debug in IBM Process Designer at least 100 times faster, it can locate logic and syntax errors in thousands of processes in couple minutes, it also outputs the error logs with all the details of all the processes in the file.</p>
+            </div>
+            <div class="project" id="project-Five">
+                <h1>Project Five<br><span>Web Link Converter - JAVA</span></h1>
+                <h3>Jan 2016</h3>
+                <br>
+                <p>Web Link Converter is a simple desktop application that encode and decodes a base64 coded website link, the application also can built links by specifying a list of fields and values. It saves the personal favorite links, so user can quickly load the previous made link by one click and launch it into web browser.</p>
+            </div>
+            <div class="project" id="project-Six">
+                <h1>Project Six<br><span>TeleCom ColorCode Calculator - Android</span></h1>
+                <h3>March 2015</h3>
+                <br>
+                <p>An single page Android app calculates the telecommunication color code, automatically translate the line number to a color code(tip side color and ring side color) of the cable at the moment of typing, and vise versa. Help telecom technicians in the field to making their work more efficient and more accurate.</p>
+            </div>
+            
+            <a href="#" class="btn" id="prev">Prev Project</a>
+            <a href="#" class="btn" id="close">X</a>
+            <a href="#" class="btn" id="next">Next Project</a>
+        </div>
+
+    </header>
+    
+    
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    //http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js
+    particlesJS.load('particle-js','assets/particles.json',function(){
+      console.log('particles.json loaded......');
+    });
+    </script>
+</body>
+</html>
